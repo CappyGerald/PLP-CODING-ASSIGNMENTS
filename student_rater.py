@@ -1,3 +1,5 @@
+
+#programme to rate students performance 
 def rate_student_performance(student_score):
     if student_score >= 80:
         print("Congratulation!passed with distinction!")
