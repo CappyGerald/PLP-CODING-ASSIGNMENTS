@@ -27,4 +27,14 @@ if __name__ == "__main__":
     # Run the main function
     main()
 
+# checking if a number is divisible by 10
+
+def divisible_by_ten(num):
+    if num % 10 == 0:
+        print("Number is divisible by 10")
+    else:
+        print("Number not divisible by 10")
+
+
+divisible_by_ten(100)
         
