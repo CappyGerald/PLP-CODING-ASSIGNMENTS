@@ -1,66 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        /* Add some style to the navigation menu */
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: purple;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #111;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERALD OCHIENG ODHIAMBO- Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="Gerald.jpg.jpg" alt="Your Name" class="header-image">
+     
+    </header>
 
-    <!-- Create a navigation menu with links to the sections -->
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-    </ul>
+    <section id="about">
+        <div class="container">
+            <h1>About GERALD</h1>
+            <p>Welcome to my portfolio! I am passionate about creating web and software solutions.</p>
+            
+        </div>
+    </section>
 
-    <!-- Create a section for "Home" with a heading and a paragraph -->
-    <div id="home">
-        <h1>Welcome to my portfolio</h1>
-        <p>This is a sample portfolio website created using HTML.</p>
-    </div>
+    <section id="projects">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="project">
+                <h2>Quiz App (Django)</h2>
+                <p>A web-based quiz application built using Django framework.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h2>Todo App (Python)</h2>
+                <p>A simple to-do list application developed using Python.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h2>Calculator (Python)</h2>
+                <p>A basic calculator program implemented in Python.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
 
-    <!-- Create a section for "About" with a heading and a paragraph -->
-    <div id="about">
-        <h2>About me</h2>
-        <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
-    </div>
+    <section id="contact">
+        <div class="container">
+            <h1>Contact GERALD</h1>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
-    <!-- Create a section for "Projects" with a heading and a list of projects -->
-    <div id="projects">
-        <h3>My projects</h3>
-        <ul>
-            <li>Project 1: A simple calculator app</li>
-            <li>Project 2: A personal blog site</li>
-            <li>Project 3: A quiz game</li>
-        </ul>
-    </div>
-
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GERALD. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
-
-  
-
